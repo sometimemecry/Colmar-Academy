@@ -32,7 +32,7 @@ header {
 
 .logo span {
     align-self: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .navdesktop {
@@ -71,6 +71,18 @@ li {
     background-color: rgb(216,216,216);
 }
 
+.banner-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(95,95,95);
+}
+
+.banner-text h3 {
+    font-size: 1.5rem;
+    font-weight: 100px;
+    color: rgb(74,74,74);
+}
+
 .banner-img {
     width: 60%;
 }
@@ -91,7 +103,11 @@ li {
     color: white;
     padding: 0.5rem;
     background-color: rgb(74,74,74);
-    border: solid 0px
+    border: solid 0px;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight:100;
+    margin-top: 2rem;
 }
 
 /*----Information Section ----*/
@@ -110,6 +126,23 @@ li {
 
 .info-img img {
     width: 100%;
+}
+
+.info-text h2 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    color:rgb(74,74,74);
+}
+
+.info-text p {
+    color: rgb(74,74,74);
+    padding-bottom: 2rem;
+}
+
+.info-text span {
+    color: rgb(74,74,74);
+    padding-bottom: 2rem;
 }
 
 .right-info {
@@ -151,6 +184,10 @@ li {
     background-color: rgb(216,216,216);
 }
 
+.right-info-text p {
+    color: rgb(74,74,74);
+}
+
 /*----Course Section----*/
 
 .course-section {
@@ -161,6 +198,8 @@ li {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    color: rgb(74,74,74);
+    font-size: 2rem;
 }
 
 .course-box {
@@ -193,6 +232,22 @@ li {
 
 .course-text h3 {
     padding-top: 1rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: rgb(74,74,74);
+}
+
+.course-text h4 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color:rgb(74,74,74);
+}
+
+.course-text p {
+    font-size: 1rem;
+    color: rgb(140,140,140);
 }
 
 /*----Thesis Section----*/
@@ -206,6 +261,8 @@ li {
     padding-top: 2rem;
     text-align: center;
     padding-bottom: 2rem;
+    color: rgb(74,74,74);
+    font-size: 2rem;
 }
 
 .thesis-box {
@@ -226,11 +283,22 @@ li {
     width: 100%;
 }
 
+.left-thesis-text h3 {
+    font-size: 1.7rem;
+    padding-bottom: 0.5rem;
+    color: rgb(74,74,74);
+}
+
+.left-thesis-text p {
+    color: rgb(122,122,122);
+}
+
 .right-thesis {
     display: flex;
     flex-direction: column;
     width: 40%;
     gap: 1rem;
+    padding-right: 0.5rem;
 }
 
 .right-thesis-img {
@@ -255,6 +323,17 @@ li {
     width: 65%;
 }
 
+.right-thesis-text h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(74,74,74);
+}
+
+.right-thesis-text p {
+    font-size: 1.2rem;
+    color: rgb(74,74,74);
+}
+
 .right-thesis-box:hover {
     background-color: rgb(216,216,216);
 }
@@ -270,6 +349,10 @@ li {
 
 .copyright {
     padding-left: 1.5rem;
+}
+
+.copyright p {
+    color: rgb(118,118,118);
 }
 
 .terms ul {
