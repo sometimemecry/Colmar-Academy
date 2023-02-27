@@ -1,3 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
 body {
-  
+  max-width: 1200px;
+  margin: auto;
+  border: solid 1px rgb(186,189,191);
+}
+
+/*----Header Section----*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.logo {
+    display: flex;
+    padding-left: 1.5rem;
+}
+
+.logo span {
+    align-self: center;
+    font-size: 2rem;
+}
+
+.navdesktop {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 1.5rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*----Banner Section----*/
+
+.banner {
+    display: flex;
 }
