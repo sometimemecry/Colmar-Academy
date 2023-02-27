@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 
 html {
     font-size: 16px;
+    font-family: Montserrat;
 }
 
 body {
@@ -43,8 +46,242 @@ li {
     list-style-type: none;
 }
 
+.colmar {
+    font-weight: 700;
+}
+
+.academy {
+    font-weight: 100;
+    color: rgb(158,158,158);
+}
+
+.navdesktop a {
+    color: rgb(74,74,74);
+}
+
+.navdesktop li:hover {
+    color: black;
+}
 /*----Banner Section----*/
 
 .banner {
     display: flex;
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+    background-color: rgb(216,216,216);
+}
+
+.banner-img {
+    width: 60%;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.banner-btn {
+    color: white;
+    padding: 0.5rem;
+    background-color: rgb(74,74,74);
+    border: solid 0px
+}
+
+/*----Information Section ----*/
+
+.info-section {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: (242,245,245);
+}
+
+.left-info {
+    width: 60%;
+    padding-left: 1.5rem;
+}
+
+.info-img img {
+    width: 100%;
+}
+
+.right-info {
+    width: 40%;
+}
+
+.right-info-box {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgb(223,226,226);
+    height: 100%;
+    margin-left: 1.5rem
+}
+
+.right-info-item {
+    display:flex;
+    gap: 1rem;
+    padding: 1rem;
+    border: solid 1px rgb(223,226,226);
+}
+
+.right-info-img {
+    width: 35%;
+}
+
+.right-info-img img {
+    width: 100%;
+}
+
+.right-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    gap: 1rem;
+}
+
+.right-info-item:hover {
+    background-color: rgb(216,216,216);
+}
+
+/*----Course Section----*/
+
+.course-section {
+    background-color: rgb(234,235,236);
+}
+
+.course-section h2 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.course-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-bottom: 2rem;
+}
+
+.course-card {
+    width: 30%;
+    background-color: white;
+    
+}
+
+.course-img img {
+    width: 100%;
+}
+
+.course-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.course-text h3 {
+    padding-top: 1rem;
+}
+
+/*----Thesis Section----*/
+
+.thesis-section {
+    background-color: rgb(242,245,245);
+    padding-bottom: 2rem;
+}
+
+.thesis-section h2 {
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.thesis-box {
+    display: flex;
+}
+
+.left-thesis {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    width: 60%;
+}
+
+.thesis-vid {
+    padding-bottom: 1.5rem;
+}
+
+.thesis-vid video {
+    width: 100%;
+}
+
+.right-thesis {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1rem;
+}
+
+.right-thesis-img {
+    padding: 1rem 1rem;
+    width: 35%;
+}
+
+.right-thesis-img img {
+    width: 100%;
+}
+
+.right-thesis-box {
+    display: flex;
+
+}
+
+.right-thesis-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 65%;
+}
+
+.right-thesis-box:hover {
+    background-color: rgb(216,216,216);
+}
+
+/*----Footer Section----*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+.copyright {
+    padding-left: 1.5rem;
+}
+
+.terms ul {
+    display: flex;
+    gap:1.5rem;
+    padding-right: 1rem;
+}
+
+.terms ul li a{
+    color: rgb(128,128,128);
+}
+
+a {
+    text-decoration: none;
 }
