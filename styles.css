@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  max-width: 1200px;
+  max-width: 1140px;
   margin: auto;
   border: solid 1px rgb(186,189,191);
 }
@@ -33,6 +33,10 @@ header {
 .logo span {
     align-self: center;
     font-size: 1.5rem;
+}
+
+.navmobile {
+    display: none;
 }
 
 .navdesktop {
@@ -72,7 +76,7 @@ li {
 }
 
 .banner-text h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: rgb(95,95,95);
 }
@@ -108,9 +112,19 @@ li {
     font-size: 1.5rem;
     font-weight:100;
     margin-top: 2rem;
+    margin-right: 4.2rem;
+}
+
+.banner-btn:hover {
+    background-color: darkgray;
+    color: black;
 }
 
 /*----Information Section ----*/
+
+.info-mobile {
+    display: none;
+}
 
 .info-section {
     display: flex;
@@ -177,7 +191,7 @@ li {
     flex-direction: column;
     justify-content: center;
     width: 65%;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .right-info-item:hover {
@@ -185,6 +199,13 @@ li {
 }
 
 .right-info-text p {
+    color:rgb(95,96,96);
+    font-size: 0.9rem;
+}
+
+.right-info-text h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
     color: rgb(74,74,74);
 }
 
@@ -215,7 +236,10 @@ li {
 .course-card {
     width: 30%;
     background-color: white;
-    
+}
+
+.course-card:hover{
+    background-color: rgb(216,216,216)
 }
 
 .course-img img {
@@ -368,3 +392,212 @@ li {
 a {
     text-decoration: none;
 }
+
+/*----Mobile Section----*/
+
+@media only screen and (max-width: 375px) {
+    
+/*----Header Section----*/
+
+.logo {
+    display: none;
+}
+
+.navdesktop {
+    display: none;
+}
+
+.navmobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*----Banner Section----*/
+
+.banner {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-text {
+    display: block;
+    width: 100%;
+}
+
+.banner-text h1 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.banner-text h3 {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-right: 1rem;
+}
+
+.banner-btn {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+/*----Information Section----*/
+
+.info-section {
+    padding: 0;
+    padding-top: 1rem;
+}
+
+.left-info {
+    display:none;
+}
+
+.right-info {
+    display: none;
+}
+
+.info-mobile {
+    display: block;
+}
+
+.mobile-box {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mobile-img img {
+    width: 100%;
+}
+
+.mobile-text {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.mobile-text h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(74,74,74);
+}
+
+.mobile-text p {
+    color: rgb(89,89,89);
+}
+
+/*----Course Section----*/
+
+.course-section h2 {
+    padding-bottom: 1rem;
+    background-color: rgb(245,244,245);
+}
+
+.course-img {
+    display: none;
+}
+
+.course-text h4 {
+    display: none;
+}
+
+.course-text p {
+    display: none;
+}
+
+.course-box {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    gap: 0.5rem;
+    padding-bottom: 2rem;
+    background-color: rgb(245,244,245);
+}
+
+.course-text {  
+    margin: 0;
+    padding: 0;
+}
+
+.course-text h3 {
+    color: rgb(74,74,74);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.course-card {
+    width: 90%;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    background-color: rgb(216,216,216);
+}
+
+/*----Thesis Section----*/
+
+.thesis-section h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: rgb(242,245,245);
+}
+
+.thesis-section {
+    display: block;
+    margin:0;
+    padding:0;
+    background-color: rgb(242,245,245);
+}
+
+.left-thesis {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(242,245,245);
+}
+
+.right-thesis {
+    display: none;
+}
+
+.left-thesis-text {
+    display: none;
+}
+
+/*----Footer Section----*/
+
+.footer {
+    background-color:rgb(242,245,245);;
+    padding: 0;
+    margin: 0;
+}
+
+.copyright p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.terms {
+    display: none;
+}
+
