@@ -196,6 +196,7 @@ li {
 
 .right-info-item:hover {
     background-color: rgb(216,216,216);
+    cursor: pointer;
 }
 
 .right-info-text p {
@@ -239,11 +240,16 @@ li {
 }
 
 .course-card:hover{
-    background-color: rgb(216,216,216)
+    background-color: rgb(216,216,216);
+    cursor: pointer;
 }
 
 .course-img img {
     width: 100%;
+}
+
+.course-img img:hover{
+    transform: scale(1.05);
 }
 
 .course-text {
@@ -360,6 +366,7 @@ li {
 
 .right-thesis-box:hover {
     background-color: rgb(216,216,216);
+    cursor: pointer;
 }
 
 /*----Footer Section----*/
