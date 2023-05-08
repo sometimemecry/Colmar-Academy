@@ -1,611 +1,608 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 16px;
-    font-family: Montserrat;
+  font-size: 16px;
+  font-family: Montserrat;
 }
 
 body {
   max-width: 1140px;
   margin: auto;
-  border: solid 1px rgb(186,189,191);
+  border: solid 1px rgb(186, 189, 191);
 }
 
 /*----Header Section----*/
 
 header {
-    display: flex;
-    justify-content: space-between;
-    height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
 }
 
 .logo {
-    display: flex;
-    padding-left: 1.5rem;
+  display: flex;
+  padding-left: 1.5rem;
 }
 
 .logo span {
-    align-self: center;
-    font-size: 1.5rem;
+  align-self: center;
+  font-size: 1.5rem;
 }
 
 .navmobile {
-    display: none;
+  display: none;
 }
 
 .navdesktop {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 1.5rem;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .colmar {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .academy {
-    font-weight: 100;
-    color: rgb(158,158,158);
+  font-weight: 100;
+  color: rgb(158, 158, 158);
 }
 
 .navdesktop a {
-    color: rgb(74,74,74);
+  color: rgb(74, 74, 74);
 }
 
 .navdesktop li:hover {
-    color: black;
+  color: black;
 }
 /*----Banner Section----*/
 
 .banner {
-    display: flex;
-    padding: 2rem 1.5rem;
-    gap: 1.5rem;
-    background-color: rgb(216,216,216);
+  display: flex;
+  padding: 2rem 1.5rem;
+  gap: 1.5rem;
+  background-color: rgb(216, 216, 216);
 }
 
 .banner-text h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: rgb(95,95,95);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(95, 95, 95);
 }
 
 .banner-text h3 {
-    font-size: 1.5rem;
-    font-weight: 100px;
-    color: rgb(74,74,74);
+  font-size: 1.5rem;
+  font-weight: 100px;
+  color: rgb(74, 74, 74);
 }
 
 .banner-img {
-    width: 60%;
+  width: 60%;
 }
 
 .banner-img img {
-    width: 100%;
+  width: 100%;
 }
 
 .banner-text {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .banner-btn {
-    color: white;
-    padding: 0.5rem;
-    background-color: rgb(74,74,74);
-    border: solid 0px;
-    height: 3rem;
-    font-size: 1.5rem;
-    font-weight:100;
-    margin-top: 2rem;
-    margin-right: 4.2rem;
+  color: white;
+  padding: 0.5rem;
+  background-color: rgb(74, 74, 74);
+  border: solid 0px;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-top: 2rem;
+  margin-right: 4.2rem;
 }
 
 .banner-btn:hover {
-    background-color: darkgray;
-    color: black;
+  background-color: darkgray;
+  color: black;
 }
 
 /*----Information Section ----*/
 
 .info-mobile {
-    display: none;
+  display: none;
 }
 
 .info-section {
-    display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background-color: (242,245,245);
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: (242, 245, 245);
 }
 
 .left-info {
-    width: 60%;
-    padding-left: 1.5rem;
+  width: 60%;
+  padding-left: 1.5rem;
 }
 
 .info-img img {
-    width: 100%;
+  width: 100%;
 }
 
 .info-text h2 {
-    padding-top: 2rem;
-    padding-bottom: 1.5rem;
-    font-size: 2rem;
-    color:rgb(74,74,74);
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  color: rgb(74, 74, 74);
 }
 
 .info-text p {
-    color: rgb(74,74,74);
-    padding-bottom: 2rem;
+  color: rgb(74, 74, 74);
+  padding-bottom: 2rem;
 }
 
 .info-text span {
-    color: rgb(74,74,74);
-    padding-bottom: 2rem;
+  color: rgb(74, 74, 74);
+  padding-bottom: 2rem;
 }
 
 .right-info {
-    width: 40%;
+  width: 40%;
 }
 
 .right-info-box {
-    display: flex;
-    flex-direction: column;
-    border: solid 1px rgb(223,226,226);
-    height: 100%;
-    margin-left: 1.5rem
+  display: flex;
+  flex-direction: column;
+  border: solid 1px rgb(223, 226, 226);
+  height: 100%;
+  margin-left: 1.5rem;
 }
 
 .right-info-item {
-    display:flex;
-    gap: 1rem;
-    padding: 1rem;
-    border: solid 1px rgb(223,226,226);
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border: solid 1px rgb(223, 226, 226);
 }
 
 .right-info-img {
-    width: 35%;
+  width: 35%;
 }
 
 .right-info-img img {
-    width: 100%;
+  width: 100%;
 }
 
 .right-info-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 65%;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  gap: 0.5rem;
 }
 
 .right-info-item:hover {
-    background-color: rgb(216,216,216);
-    cursor: pointer;
+  background-color: rgb(216, 216, 216);
+  cursor: pointer;
 }
 
 .right-info-text p {
-    color:rgb(95,96,96);
-    font-size: 0.9rem;
+  color: rgb(95, 96, 96);
+  font-size: 0.9rem;
 }
 
 .right-info-text h3 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: rgb(74,74,74);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(74, 74, 74);
 }
 
 /*----Course Section----*/
 
 .course-section {
-    background-color: rgb(234,235,236);
+  background-color: rgb(234, 235, 236);
 }
 
 .course-section h2 {
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color: rgb(74,74,74);
-    font-size: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: rgb(74, 74, 74);
+  font-size: 2rem;
 }
 
 .course-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
-    padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  padding-bottom: 2rem;
 }
 
 .course-card {
-    width: 30%;
-    background-color: white;
+  width: 30%;
+  background-color: white;
 }
 
-.course-card:hover{
-    background-color: rgb(216,216,216);
-    cursor: pointer;
+.course-card:hover {
+  background-color: rgb(216, 216, 216);
+  cursor: pointer;
 }
 
 .course-img img {
-    width: 100%;
+  width: 100%;
 }
 
-.course-img img:hover{
-    transform: scale(1.05);
+.course-img img:hover {
+  transform: scale(1.05);
 }
 
 .course-text {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    padding-left: 1rem;
-    padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .course-text h3 {
-    padding-top: 1rem;
-    font-size: 1.7rem;
-    font-weight: 400;
-    color: rgb(74,74,74);
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: rgb(74, 74, 74);
 }
 
 .course-text h4 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 1.1rem;
-    font-weight: 100;
-    color:rgb(74,74,74);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: rgb(74, 74, 74);
 }
 
 .course-text p {
-    font-size: 1rem;
-    color: rgb(140,140,140);
+  font-size: 1rem;
+  color: rgb(140, 140, 140);
 }
 
 /*----Thesis Section----*/
 
 .thesis-section {
-    background-color: rgb(242,245,245);
-    padding-bottom: 2rem;
+  background-color: rgb(242, 245, 245);
+  padding-bottom: 2rem;
 }
 
 .thesis-section h2 {
-    padding-top: 2rem;
-    text-align: center;
-    padding-bottom: 2rem;
-    color: rgb(74,74,74);
-    font-size: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: rgb(74, 74, 74);
+  font-size: 2rem;
 }
 
 .thesis-box {
-    display: flex;
+  display: flex;
 }
 
 .left-thesis {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    width: 60%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  width: 60%;
 }
 
 .thesis-vid {
-    padding-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .thesis-vid video {
-    width: 100%;
+  width: 100%;
 }
 
 .left-thesis-text h3 {
-    font-size: 1.7rem;
-    padding-bottom: 0.5rem;
-    color: rgb(74,74,74);
+  font-size: 1.7rem;
+  padding-bottom: 0.5rem;
+  color: rgb(74, 74, 74);
 }
 
 .left-thesis-text p {
-    color: rgb(122,122,122);
+  color: rgb(122, 122, 122);
 }
 
 .right-thesis {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    gap: 1rem;
-    padding-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 1rem;
+  padding-right: 0.5rem;
 }
 
 .right-thesis-img {
-    padding: 1rem 1rem;
-    width: 35%;
+  padding: 1rem 1rem;
+  width: 35%;
 }
 
 .right-thesis-img img {
-    width: 100%;
+  width: 100%;
 }
 
 .right-thesis-box {
-    display: flex;
-
+  display: flex;
 }
 
 .right-thesis-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 65%;
 }
 
 .right-thesis-text h3 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: rgb(74,74,74);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(74, 74, 74);
 }
 
 .right-thesis-text p {
-    font-size: 1.2rem;
-    color: rgb(74,74,74);
+  font-size: 1.2rem;
+  color: rgb(74, 74, 74);
 }
 
 .right-thesis-box:hover {
-    background-color: rgb(216,216,216);
-    cursor: pointer;
+  background-color: rgb(216, 216, 216);
+  cursor: pointer;
 }
 
 /*----Footer Section----*/
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
 }
 
 .copyright {
-    padding-left: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .copyright p {
-    color: rgb(118,118,118);
+  color: rgb(118, 118, 118);
 }
 
 .terms ul {
-    display: flex;
-    gap:1.5rem;
-    padding-right: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  padding-right: 1rem;
 }
 
-.terms ul li a{
-    color: rgb(128,128,128);
+.terms ul li a {
+  color: rgb(128, 128, 128);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*----Mobile Section----*/
 
 @media only screen and (max-width: 375px) {
-    
-/*----Header Section----*/
+  /*----Header Section----*/
 
-.logo {
+  .logo {
     display: none;
-}
+  }
 
-.navdesktop {
+  .navdesktop {
     display: none;
-}
+  }
 
-.navmobile {
+  .navmobile {
     width: 100%;
     display: flex;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-}
+  }
 
-/*----Banner Section----*/
+  /*----Banner Section----*/
 
-.banner {
+  .banner {
     display: block;
     padding: 0;
     margin: 0;
-}
+  }
 
-.banner-img {
+  .banner-img {
     width: 100%;
     padding: 0;
     margin: 0;
-}
+  }
 
-.banner-text {
+  .banner-text {
     display: block;
     width: 100%;
-}
+  }
 
-.banner-text h1 {
+  .banner-text h1 {
     padding-top: 2rem;
     padding-left: 1rem;
     padding-bottom: 2rem;
     font-size: 2rem;
-}
+  }
 
-.banner-text h3 {
+  .banner-text h3 {
     padding-left: 1rem;
     font-size: 1.5rem;
     font-weight: 100;
     padding-right: 1rem;
-}
+  }
 
-.banner-btn {
+  .banner-btn {
     margin-left: 1rem;
     margin-bottom: 2rem;
     width: 90%;
-}
+  }
 
-/*----Information Section----*/
+  /*----Information Section----*/
 
-.info-section {
+  .info-section {
     padding: 0;
     padding-top: 1rem;
-}
+  }
 
-.left-info {
-    display:none;
-}
-
-.right-info {
+  .left-info {
     display: none;
-}
+  }
 
-.info-mobile {
+  .right-info {
+    display: none;
+  }
+
+  .info-mobile {
     display: block;
-}
+  }
 
-.mobile-box {
+  .mobile-box {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     width: 100%;
-}
+  }
 
-.mobile-img img {
+  .mobile-img img {
     width: 100%;
-}
+  }
 
-.mobile-text {
+  .mobile-text {
     padding-top: 1rem;
     padding-left: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-}
+  }
 
-.mobile-text h3 {
+  .mobile-text h3 {
     font-size: 1.5rem;
     font-weight: 400;
-    color: rgb(74,74,74);
-}
+    color: rgb(74, 74, 74);
+  }
 
-.mobile-text p {
-    color: rgb(89,89,89);
-}
+  .mobile-text p {
+    color: rgb(89, 89, 89);
+  }
 
-/*----Course Section----*/
+  /*----Course Section----*/
 
-.course-section h2 {
+  .course-section h2 {
     padding-bottom: 1rem;
-    background-color: rgb(245,244,245);
-}
+    background-color: rgb(245, 244, 245);
+  }
 
-.course-img {
+  .course-img {
     display: none;
-}
+  }
 
-.course-text h4 {
+  .course-text h4 {
     display: none;
-}
+  }
 
-.course-text p {
+  .course-text p {
     display: none;
-}
+  }
 
-.course-box {
+  .course-box {
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 0;
     padding: 0;
     gap: 0.5rem;
     padding-bottom: 2rem;
-    background-color: rgb(245,244,245);
-}
+    background-color: rgb(245, 244, 245);
+  }
 
-.course-text {  
+  .course-text {
     margin: 0;
     padding: 0;
-}
+  }
 
-.course-text h3 {
-    color: rgb(74,74,74);
+  .course-text h3 {
+    color: rgb(74, 74, 74);
     font-size: 1.5rem;
     font-weight: 700;
-}
+  }
 
-.course-card {
+  .course-card {
     width: 90%;
     padding-top: 1rem;
     margin-left: 1rem;
     padding-bottom: 1.5rem;
     padding-left: 1rem;
-    background-color: rgb(216,216,216);
-}
+    background-color: rgb(216, 216, 216);
+  }
 
-/*----Thesis Section----*/
+  /*----Thesis Section----*/
 
-.thesis-section h2 {
+  .thesis-section h2 {
     padding-top: 2rem;
     padding-bottom: 1rem;
-    background-color: rgb(242,245,245);
-}
+    background-color: rgb(242, 245, 245);
+  }
 
-.thesis-section {
+  .thesis-section {
     display: block;
-    margin:0;
-    padding:0;
-    background-color: rgb(242,245,245);
-}
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242, 245, 245);
+  }
 
-.left-thesis {
+  .left-thesis {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: rgb(242,245,245);
-}
+    background-color: rgb(242, 245, 245);
+  }
 
-.right-thesis {
+  .right-thesis {
     display: none;
-}
+  }
 
-.left-thesis-text {
+  .left-thesis-text {
     display: none;
-}
+  }
 
-/*----Footer Section----*/
+  /*----Footer Section----*/
 
-.footer {
-    background-color:rgb(242,245,245);;
+  .footer {
+    background-color: rgb(242, 245, 245);
     padding: 0;
     margin: 0;
-}
+  }
 
-.copyright p {
+  .copyright p {
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 0.8rem;
-}
+  }
 
-.terms {
+  .terms {
     display: none;
+  }
 }
-
-/*----Last Commit----*/
